@@ -11,4 +11,5 @@ public interface IUserDAO {
     void delete(Long userId);
     UserModel save(UserModel user);
     UserModel update(Long userId, UserModel user);
+    UserModel getUserByCredentials(UserModel user);
 }
